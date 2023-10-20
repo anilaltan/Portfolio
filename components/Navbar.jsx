@@ -1,12 +1,10 @@
 'use client'
 
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
 
 const Navbar = () => {
-  const currentRoute = usePathname()
   const [blur, setBlur] = useState(false)
 
   const changeNavbar = () => {
@@ -17,7 +15,9 @@ const Navbar = () => {
     }
   }
 
-  addEventListener('scroll', changeNavbar)
+  useEffect(() => {
+    addEventListener('scroll', changeNavbar)
+  })
 
   return (
     <header>

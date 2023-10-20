@@ -1,3 +1,5 @@
+'use client'
+
 const Card = ({ card }) => {
   return (
     <div
