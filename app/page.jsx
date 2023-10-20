@@ -61,7 +61,12 @@ export default function Home() {
               </ul>
             </div>
             <div className="about-pp">
-              <Image src="/images/photo.jpg" width={500} height={625} />
+              <Image
+                src="/images/photo.jpg"
+                width={500}
+                height={625}
+                alt="photo"
+              />
             </div>
           </div>
         </section>
