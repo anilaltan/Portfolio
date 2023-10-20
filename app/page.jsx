@@ -1,5 +1,4 @@
 import HorizontalScrollCarousel from '../components/HorizotallScrollCarousel'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -61,7 +60,7 @@ export default function Home() {
               </ul>
             </div>
             <div className="about-pp">
-              <Image
+              <img
                 src="/images/photo.jpg"
                 width={500}
                 height={625}
