@@ -27,6 +27,8 @@ const HorizontalScrollCarousel = () => {
 
 export default HorizontalScrollCarousel
 
+export { HorizontalScrollCarousel }
+
 const cards = [
   {
     src: '/images/1.jpg',

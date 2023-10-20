@@ -32,3 +32,4 @@ const Card = ({ card }) => {
 }
 
 export default Card
+export { Card }
