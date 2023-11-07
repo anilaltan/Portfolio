@@ -167,7 +167,7 @@ p {
   text-align: left;
 }
 
-.hero-hi h1 {
+.hero-hi p {
   font-family: var(--main-font);
   color: var(--color-secondary);
   font-size: 400;

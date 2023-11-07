@@ -6,7 +6,7 @@ export default function Home() {
       <div className="content">
         <section id="hero">
           <div className="hero-hi">
-            <h1>Hi, i am</h1>
+            <p>Hi, my name is</p>
           </div>
           <div>
             <h1 className="hero-name">Anıl.</h1>
